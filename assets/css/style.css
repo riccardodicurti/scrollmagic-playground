@@ -1,22 +1,46 @@
-section {
+body {
+
   height: 100vh;
   width: 100vw;
+
+  background-image: url("../images/sandro-gonzalez-1423067-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .s1 {
-    background-color: red;
+    background-color: transparent;
 }
 
 .s2 {
-    background-color: blue;
+    background-color: transparent;
 }
 
 .s3 {
     background-color: green;
 }
+.s5 {
+    background-color: green;
+}
 
 section h1 {
-	top: 50%;
-	position: absolute;
-	left: 50%;
+    line-height: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
 }
